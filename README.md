@@ -5,13 +5,13 @@ make git archive files and backup files.
 
 ### 配置場所
 
-- 任意のbin フォルダ等に配置して下さい
-
+- 任意のbin フォルダ等に配置し実行権限を与えて下さい
 
 例えば以下のようなディレクトリ
 
 ```sh
 $ /Uses/your_user_name/bin/git-archive-with-backup.sh
+$ chmod 755 /Uses/your_user_name/bin/git-archive-with-backup.sh
 ```
 
 ### 使い方
