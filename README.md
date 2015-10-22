@@ -29,3 +29,13 @@ $ ~/bin/git-archive-with-backup.sh <from_revision_hash> <to_revision_hash>
 $ cd /Users/your_user_name/dev/git_repository
 $ ~/bin/git-archive-with-backup.sh a88bfca3abbaffd69d16a3b71bb8eec210e27f67
 ```
+
+### 差分ファイルとバックアップファイルの出力先
+
+以下のディレクトリに.zipファイルが生成されます。生成場所は任意に書き換えてください。
+
+```
+~/Desktop/release_{from_revision_hash}.zip
+~/Desktop/backup_{from_revision_hash}.zip
+```
+
