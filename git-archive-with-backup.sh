@@ -6,7 +6,6 @@
 # Last updated on: 2015/10/22
 # -------------------------------------------------------
 
-WORKING_DIR=`pwd`
 ORIGIN_BRANCH=`git rev-parse --abbrev-ref HEAD`
 FROM_RIVISION=$1
 TO_RIVISION=HEAD
